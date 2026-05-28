@@ -7,6 +7,7 @@
   <meta name="description" content="Simple BMI calculator for kg/cm and lbs/ft. Get your BMI category and healthy weight range fast.">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://larateamhelp-design.github.io/bmi-calculator-site/">
+  <link rel="sitemap" type="application/xml" href="/bmi-calculator-site/sitemap.xml">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="BMI Calculator">
@@ -25,7 +26,7 @@
   {"@context":"https://schema.org","@type":"WebApplication","name":"BMI Calculator","url":"https://larateamhelp-design.github.io/bmi-calculator-site/","applicationCategory":"HealthApplication","operatingSystem":"Any","description":"Simple BMI calculator supporting kg/cm and lbs/ft inputs with BMI category and healthy weight range.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
   </script>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I calculate BMI using kg and cm?","acceptedAnswer":{"@type":"Answer","text":"BMI is weight in kilograms divided by height in meters squared. The calculator converts centimeters to meters automatically."}},{"@type":"Question","name":"How do I calculate BMI using pounds and feet?","acceptedAnswer":{"@type":"Answer","text":"BMI is weight in pounds divided by height in inches squared, multiplied by 703."}},{"@type":"Question","name":"Is BMI different for women and men?","acceptedAnswer":{"@type":"Answer","text":"The adult BMI formula is the same for women and men. BMI is a screening estimate, not a full health diagnosis."}},{"@type":"Question","name":"What is a healthy BMI range?","acceptedAnswer":{"@type":"Answer","text":"For most adults, a BMI from 18.5 to 24.9 is considered healthy."}}]}
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I calculate BMI using kg and cm?","acceptedAnswer":{"@type":"Answer","text":"BMI is weight in kilograms divided by height in meters squared. The calculator converts centimeters to meters automatically."}},{"@type":"Question","name":"How do I calculate BMI using pounds and feet?","acceptedAnswer":{"@type":"Answer","text":"BMI is weight in pounds divided by height in inches squared, multiplied by 703."}},{"@type":"Question","name":"Is BMI different for women and men?","acceptedAnswer":{"@type":"Answer","text":"The adult BMI formula is the same for women and men. BMI is a screening estimate, not a full health diagnosis."}},{"@type":"Question","name":"What is a healthy BMI range?","acceptedAnswer":{"@type":"Answer","text":"For most adults, a BMI from 18.5 to 24.9 is considered healthy."}},{"@type":"Question","name":"What is a healthy BMI for women?","acceptedAnswer":{"@type":"Answer","text":"For most adult women, a healthy BMI is generally 18.5 to 24.9. BMI does not account for pregnancy, muscle mass, or individual health factors."}},{"@type":"Question","name":"What is a healthy BMI for men?","acceptedAnswer":{"@type":"Answer","text":"For most adult men, a healthy BMI is generally 18.5 to 24.9. Athletic build and muscle mass can make BMI less precise."}},{"@type":"Question","name":"Is BMI accurate for athletes?","acceptedAnswer":{"@type":"Answer","text":"BMI can be less accurate for athletes because it does not distinguish muscle from fat. A muscular person may have a high BMI without having excess body fat."}},{"@type":"Question","name":"What is a BMI of 30?","acceptedAnswer":{"@type":"Answer","text":"A BMI of 30 is the starting point for the obesity category for most adults. It is a screening measure, not a diagnosis by itself."}},{"@type":"Question","name":"How can I lower my BMI?","acceptedAnswer":{"@type":"Answer","text":"Lowering BMI usually involves gradual weight loss through nutrition, physical activity, sleep, and sustainable habits. Talk with a healthcare professional for personal guidance."}}]}
   </script>
 
   <style>
@@ -115,9 +116,13 @@
           <thead><tr><th>Height</th><th>Healthy range</th><th>Note</th></tr></thead>
           <tbody>
             <tr><td>5'0" / 152 cm</td><td>95–128 lb / 43–58 kg</td><td>BMI 18.5–24.9</td></tr>
+            <tr><td>5'2" / 157 cm</td><td>101–136 lb / 46–62 kg</td><td>Quick guide</td></tr>
             <tr><td>5'4" / 163 cm</td><td>108–145 lb / 49–66 kg</td><td>Quick guide</td></tr>
+            <tr><td>5'6" / 168 cm</td><td>115–154 lb / 52–70 kg</td><td>Quick guide</td></tr>
             <tr><td>5'8" / 173 cm</td><td>122–164 lb / 55–74 kg</td><td>Compare result</td></tr>
-            <tr><td>6'0" / 183 cm</td><td>137–184 lb / 62–83 kg</td><td>Muscle can shift it</td></tr>
+            <tr><td>5'10" / 178 cm</td><td>129–174 lb / 58–79 kg</td><td>Compare result</td></tr>
+            <tr><td>6'0" / 183 cm</td><td>136–184 lb / 62–83 kg</td><td>Muscle can shift it</td></tr>
+            <tr><td>6'2" / 188 cm</td><td>144–194 lb / 65–88 kg</td><td>Muscle can shift it</td></tr>
           </tbody>
         </table>
       </div>
@@ -134,6 +139,11 @@
         <details><summary>How is BMI calculated?</summary><p>Metric: kg ÷ meters². Imperial: lbs ÷ inches² × 703.</p></details>
         <details><summary>Does BMI change for women or men?</summary><p>The adult formula is the same. Body composition still matters.</p></details>
         <details><summary>What is a healthy BMI?</summary><p>For most adults, 18.5 to 24.9 is considered healthy.</p></details>
+        <details><summary>What is a healthy BMI for women?</summary><p>For most adult women, 18.5 to 24.9 is generally considered a healthy BMI. BMI does not account for pregnancy, muscle mass, or individual health factors.</p></details>
+        <details><summary>What is a healthy BMI for men?</summary><p>For most adult men, 18.5 to 24.9 is generally considered a healthy BMI. Athletic build and muscle mass can make BMI less precise.</p></details>
+        <details><summary>Is BMI accurate for athletes?</summary><p>BMI can be less accurate for athletes because it does not distinguish muscle from fat. A muscular person may have a high BMI without having excess body fat.</p></details>
+        <details><summary>What is a BMI of 30?</summary><p>A BMI of 30 is the starting point for the obesity category for most adults. It is a screening measure, not a diagnosis by itself.</p></details>
+        <details><summary>How can I lower my BMI?</summary><p>Lowering BMI usually involves gradual weight loss through nutrition, physical activity, sleep, and sustainable habits. Talk with a healthcare professional for personal guidance.</p></details>
       </div>
     </section>
   </main>
